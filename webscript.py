@@ -6,82 +6,82 @@ from selenium.webdriver.support import expected_conditions as EC
 
 from selenium.webdriver.common.by import By
 import time 
-
-
-
 driver = wd.Firefox()
-
 driver.get('https://www.dominos.ca')
 
-assert 'Domino\'s' in driver.title
-#driver.findElement(by.className('btn btn--delivery js-delivery')).click()
-elem = driver.find_element_by_xpath('/html/body/header/nav/div[3]/ul/li[1]/a')
-print(elem)
-elem.click()
-print(driver.current_url)
-#elem.clear()
-#elem.send_keys('pycon')
-#elem.send_keys(Keys.RETURN)
-time.sleep(2)
-assert 'No results found.' not in driver.page_source
-elem2 =  driver.find_element_by_xpath('/html/body/div[2]/div[3]/div/div/form/div/div[1]/div[2]/div[1]/div/label[1]/span[1]')
-print(elem2)
-elem2.click()
+Delivery = driver.find_element_by_css_selector('.btn.smart-order__cta.smart-order__cta--color')
+Delivery.click()
+time.sleep(1)
 
-time.sleep(2)
+StreetAdd = driver.find_element_by_id('Street')
+StreetAdd.send_keys('350 Victoria St')
 
-elem3 =  driver.find_element_by_xpath('//*[@id="Street"]')
-elem3.send_keys("Victoria St")
+City = driver.find_element_by_id('City')
+City.send_keys('Toronto')
 
-elem4 =  driver.find_element_by_xpath('//*[@id="Address_Line_2"]')
-elem4.send_keys("350")
+Region = Select(driver.find_element_by_id('Region'))
+Region.select_by_visible_text('ON')
 
-elem5 =  driver.find_element_by_xpath('//*[@id="City"]')
-elem5.send_keys("Toronto")
+postal = driver.find_element_by_id('Postal_Code')
+postal.send_keys('M5B 2K3')
 
-elem6 =  driver.find_element_by_xpath('//*[@id="Postal_Code"]')
-elem6.send_keys("M5B 2K3")
-
-
-select = Select(driver.find_element_by_xpath('//*[@id="Region"]'))
-select.select_by_visible_text('ON')
-
-time.sleep(2)
-
-elem7 = driver.find_element_by_xpath('/html/body/div[2]/div[3]/div/div/form/div/div[2]/div/button')
-print(elem7)
-elem7.click()
-print(driver.current_url)
-
-time.sleep(4)
-
-elemPizza = driver.find_element_by_xpath('/html/body/div[2]/div[2]/div/div/div/div[8]/a/div[2]/h2')
-elemPizza.click()
-
+con_Delivery = driver.find_element_by_css_selector('.btn.btn--large.btn--search-location.js-search-cta.c-locationsearch-search-cta')
+con_Delivery.click()
 time.sleep(3)
 
-vegPizza = driver.find_element_by_xpath('/html/body/div[2]/div[2]/div/div/section/div/div[1]/div/a')
-vegPizza.click()
-time.sleep(5)
+spec_Pizza = driver.find_element_by_id('entree-Pizza')
+spec_Pizza.click()
+time.sleep(2)
 
+veg_Pizza = driver.find_element_by_css_selector('.media__image.productImage')
+veg_Pizza.click()
 
-#driver.implicitly_wait(10)
+no_Custom = driver.find_element_by_css_selector('.btn.btn--large.js-isNew.js-addPizza.js-specialtyPizzaAdd.btn--speciality-add')
+no_Custom.click()
 
+no_Cheese = driver.find_element_by_xpath('/html/body/div[24]/section/div/div[3]/div[3]/div[5]/div[3]/div/div/div/button[1]')
+no_Cheese.click()
 
-noCustom = driver.find_element_by_xpath('/html/body/div[8]/div/div[2]/form/div[4]/div[3]/div/div[1]/div/button[2]')
-
-noCustom.click()
-time.sleep(3)
-noCheese = driver.find_element_by_xpath('/html/body/div[8]/div/div[2]/form/div[4]/div[3]/div/div[4]/div/button[1]')
-noCheese.click()
-time.sleep(3)
-checkout = driver.find_element_by_xpath('/html/body/div[2]/div[2]/aside/div[2]/div/div[2]/div[1]/a')
+checkout = driver.find_element_by_css_selector('.c-order-buttonCheckout-text')
 checkout.click()
 
-time.sleep(3)
-skipAd = driver.find_element_by_xpath('/html/body/div[8]/div/a')
-skipAd.click()
+close_Ad = driver.find_element_by_css_selector('.card--overlay__close.js-closeButton')
+close_Ad.click()
+
+total = driver.find_element_by_css_selector('.finalizedTotal.js-total')
+txt = total.get_attribute('innerText')
+print("Total price is " + txt)
+
+final_checkout = driver.find_element_by_css_selector('.btn.btn--large.btn--block.btn--continue-checkout.submitButton.qa-OrCheck.js-continueCheckout.c-order-continueCheckout')
+final_checkout.click()
+
+first_N = driver.find_element_by_id('First_Name')
+first_N.send_keys('Sagar')
+
+last_N = driver.find_element_by_id('Last_Name')
+last_N.send_keys('PUNN')
+
+email = driver.find_element_by_id('Email')
+email.send_keys('example@yahoo.com')
+
+phone = driver.find_element_by_id('Callback_Phone')
+phone.send_keys('3333333333')
+
+debit_Pay = driver.find_element_by_css_selector('.Delivery.is-hidden.c-order-payment-doordebit.js-paymentType')
+debit_Pay.click()
 
 
-print(driver.current_url)
-driver.close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
