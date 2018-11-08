@@ -5169,3 +5169,588 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 14
 1541468789267	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
 1541468789268	Marionette	TRACE	0 <- [1,62,null,{"value":null}]
 1541469585741	Marionette	DEBUG	Closed connection 0
+1541469663730	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1541469663730	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1541469663730	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1541469663730	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1541469663730	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1541469663730	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1541469663730	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1541469663731	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1541469663731	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1541469663731	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1541469663732	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1541469663732	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1541469663732	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1541469663732	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1541469663732	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1541469663733	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1541469663733	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1541469663733	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1541469663733	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1541469663733	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1541469663733	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1541469663733	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1541469663733	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1541469663733	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1541469663734	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1541469663734	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1541469663734	Marionette	INFO	Stopped listening on port 61758
+1541469663734	Marionette	DEBUG	Remote service is inactive
+1541650234744	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v2/lctp3wyj36d2q0kglg6610qw0000gn/T/rust_mozprofile.5wu5xxz6EdpR"
+1541650235584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1541650235584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1541650235709	Marionette	DEBUG	Received observer notification profile-after-change
+1541650235918	Marionette	DEBUG	Received observer notification command-line-startup
+1541650235918	Marionette	DEBUG	Received observer notification nsPref:changed
+1541650235918	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1541650236184	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1541650237284	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1541650237285	Marionette	DEBUG	Waiting for delayed startup...
+1541650237450	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1541650237450	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1541650237451	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1541650237451	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1541650237452	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1541650237452	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1541650237453	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1541650237453	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1541650237453	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1541650237453	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1541650237453	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1541650237454	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1541650237454	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1541650237454	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1541650237454	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1541650237455	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1541650237455	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1541650237455	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1541650237455	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1541650237455	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1541650237455	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1541650237455	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1541650237456	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1541650237456	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1541650237456	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1541650237497	Marionette	INFO	Listening on port 64659
+1541650237497	Marionette	DEBUG	Remote service is active
+1541650237517	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:64691
+1541650237519	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1541650237519	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541650237557	Marionette	DEBUG	[4294967297] Frame script loaded
+1541650237564	Marionette	DEBUG	[4294967297] Frame script registered
+1541650237570	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"17c9ee9a-1542-d647-8ec0-cd0292a4e46c","capabilities":{"browserName":"firefox","browserVersion":"64.0" ... ozprofile.5wu5xxz6EdpR","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1541650237575	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.dominos.ca"}]
+1541650237641	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1541650237934	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1541650238462	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.dominos.ca/
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 83: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+1541650240212	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650240681	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.dominos.ca/
+1541650240682	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1541650240689	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".btn.smart-order__cta.smart-order__cta--color"}]
+1541650240692	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9cc6a201-1586-8642-ba5a-300aa1d4cc71"}}]
+1541650240698	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"9cc6a201-1586-8642-ba5a-300aa1d4cc71"}]
+1541650240722	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.dominos.ca/
+1541650240749	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.dominos.ca/
+1541650240750	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.dominos.ca/
+1541650241009	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650241010	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650241010	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650241010	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650241010	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650241067	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.dominos.ca/pages/order/#!/locations/search/?type=Delivery
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 83: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+1541650242407	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.dominos.ca/pages/order/#!/locations/search/?type=Delivery
+1541650242408	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1541650243416	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"Street\"]"}]
+1541650243420	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3886db29-e576-b34d-9f9d-9bb8835e686b"}}]
+1541650243427	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"3886db29-e576-b34d-9f9d-9bb8835e686b","text":"350 Victoria St","value":["3","5","0"," ","V","i","c","t","o","r","i","a"," ","S","t"]}]
+1541650243476	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1541650243479	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"City\"]"}]
+1541650243485	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5eeb47ad-d1da-d045-baf7-2419f453224b"}}]
+1541650243489	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"5eeb47ad-d1da-d045-baf7-2419f453224b","text":"Toronto","value":["T","o","r","o","n","t","o"]}]
+1541650243518	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1541650243520	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"Region\"]"}]
+1541650243522	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"aab99c6f-21bb-3047-a43e-9692015d100c"}}]
+1541650243525	Marionette	TRACE	0 -> [0,10,"WebDriver:GetElementTagName",{"id":"aab99c6f-21bb-3047-a43e-9692015d100c"}]
+1541650243526	Marionette	TRACE	0 <- [1,10,null,{"value":"select"}]
+1541650243537	Marionette	TRACE	0 -> [0,11,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"aab99c6f-21bb-3047-a43e-9692015d100c","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1541650243544	Marionette	TRACE	0 <- [1,11,null,{"value":null}]
+1541650243547	Marionette	TRACE	0 -> [0,12,"WebDriver:FindElements",{"element":"aab99c6f-21bb-3047-a43e-9692015d100c","using":"xpath","value":".//option[normalize-space(.) = \"ON\"]"}]
+1541650243554	Marionette	TRACE	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"fc26a414-c568-b542-b02f-c8011dc2dd58"}]]
+1541650243556	Marionette	TRACE	0 -> [0,13,"WebDriver:IsElementSelected",{"id":"fc26a414-c568-b542-b02f-c8011dc2dd58"}]
+1541650243562	Marionette	TRACE	0 <- [1,13,null,{"value":false}]
+1541650243564	Marionette	TRACE	0 -> [0,14,"WebDriver:ElementClick",{"id":"fc26a414-c568-b542-b02f-c8011dc2dd58"}]
+1541650243789	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650243790	Marionette	TRACE	0 <- [1,14,null,{"value":null}]
+1541650243794	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"Postal_Code\"]"}]
+1541650243798	Marionette	TRACE	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6b0ab6be-2fea-9e4e-a64e-700981292a32"}}]
+1541650243802	Marionette	TRACE	0 -> [0,16,"WebDriver:ElementSendKeys",{"id":"6b0ab6be-2fea-9e4e-a64e-700981292a32","text":"M5B 2K3","value":["M","5","B"," ","2","K","3"]}]
+1541650243857	Marionette	TRACE	0 <- [1,16,null,{"value":null}]
+1541650243860	Marionette	TRACE	0 -> [0,17,"WebDriver:FindElement",{"using":"css selector","value":".btn.btn--large.btn--search-location.js-search-cta.c-locationsearch-search-cta"}]
+1541650243865	Marionette	TRACE	0 <- [1,17,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"48eeed26-c96e-b94b-bcf5-34f7e120cfd8"}}]
+1541650243868	Marionette	TRACE	0 -> [0,18,"WebDriver:ElementClick",{"id":"48eeed26-c96e-b94b-bcf5-34f7e120cfd8"}]
+1541650244122	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650244123	Marionette	TRACE	0 <- [1,18,null,{"value":null}]
+1541650247128	Marionette	TRACE	0 -> [0,19,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"entree-Pizza\"]"}]
+1541650247147	Marionette	TRACE	0 <- [1,19,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"56fcb5be-f27e-484f-9781-d8a2c6d7d888"}}]
+1541650247150	Marionette	TRACE	0 -> [0,20,"WebDriver:ElementClick",{"id":"56fcb5be-f27e-484f-9781-d8a2c6d7d888"}]
+1541650247188	Marionette	DEBUG	[4294967297] Received DOM event popstate for https://www.dominos.ca/pages/order/#!/section/Food/category/Pizza/
+1541650247204	Marionette	TRACE	0 <- [1,20,null,{"value":null}]
+1541650249219	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":".media__image.productImage"}]
+1541650249223	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"313b3819-509b-de49-a38f-8a7ed4076f31"}}]
+1541650249226	Marionette	TRACE	0 -> [0,22,"WebDriver:ElementClick",{"id":"313b3819-509b-de49-a38f-8a7ed4076f31"}]
+1541650249459	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650249460	Marionette	TRACE	0 <- [1,22,null,{"value":null}]
+1541650249463	Marionette	TRACE	0 -> [0,23,"WebDriver:FindElement",{"using":"css selector","value":".btn.btn--large.js-isNew.js-addPizza.js-specialtyPizzaAdd.btn--speciality-add"}]
+1541650249465	Marionette	TRACE	0 <- [1,23,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4d324df4-6118-7f40-8d8b-95f304420a17"}}]
+1541650249468	Marionette	TRACE	0 -> [0,24,"WebDriver:ElementClick",{"id":"4d324df4-6118-7f40-8d8b-95f304420a17"}]
+1541650249695	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650249697	Marionette	TRACE	0 <- [1,24,null,{"value":null}]
+1541650249700	Marionette	TRACE	0 -> [0,25,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[24]/section/div/div[3]/div[3]/div[5]/div[3]/div/div/div/button[1]"}]
+1541650249710	Marionette	TRACE	0 <- [1,25,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9215b1b1-e55e-7c4e-b879-a38f456cb2a6"}}]
+1541650249717	Marionette	TRACE	0 -> [0,26,"WebDriver:ElementClick",{"id":"9215b1b1-e55e-7c4e-b879-a38f456cb2a6"}]
+1541650250020	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650250022	Marionette	TRACE	0 <- [1,26,null,{"value":null}]
+1541650250026	Marionette	TRACE	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":".c-order-buttonCheckout-text"}]
+1541650250028	Marionette	TRACE	0 <- [1,27,{"error":"no such element","message":"Unable to locate element: .c-order-buttonCheckout-text","stacktrace":"WebDriverEr ... entError@chrome://marionette/content/error.js:388:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1541650250061	Marionette	DEBUG	Closed connection 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 83: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 83: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript error: https://www.bing.com/rb/3u/cj,nj/b596dd10/b1edeb2c.js?bu=BPEE4QTnAfYE, line 1: TypeError: a._v8Map is null; can't access its "targetViewChanged" property
+JavaScript error: https://www.bing.com/rb/3u/cj,nj/b596dd10/b1edeb2c.js?bu=BPEE4QTnAfYE, line 1: TypeError: a._v8Map is null; can't access its "viewChanged" property
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 83: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+1541650440815	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1541650440816	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1541650440816	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1541650440816	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1541650440816	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1541650440816	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1541650440816	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1541650440817	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1541650440817	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1541650440817	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1541650440817	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1541650440818	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1541650440818	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1541650440818	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1541650440818	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1541650440819	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1541650440819	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1541650440819	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1541650440819	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1541650440819	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1541650440819	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1541650440819	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1541650440819	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1541650440820	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1541650440820	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1541650440820	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1541650440820	Marionette	INFO	Stopped listening on port 64659
+1541650440820	Marionette	DEBUG	Remote service is inactive
+1541650446160	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v2/lctp3wyj36d2q0kglg6610qw0000gn/T/rust_mozprofile.r7I1is8h2hOg"
+1541650446765	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1541650446765	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1541650446866	Marionette	DEBUG	Received observer notification profile-after-change
+1541650446975	Marionette	DEBUG	Received observer notification command-line-startup
+1541650446975	Marionette	DEBUG	Received observer notification nsPref:changed
+1541650446975	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1541650447208	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1541650448271	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1541650448271	Marionette	DEBUG	Waiting for delayed startup...
+1541650448583	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1541650448584	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1541650448584	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1541650448584	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1541650448585	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1541650448585	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1541650448586	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1541650448587	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1541650448587	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1541650448587	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1541650448588	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1541650448589	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1541650448589	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1541650448589	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1541650448590	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1541650448590	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1541650448590	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1541650448591	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1541650448591	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1541650448591	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1541650448592	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1541650448592	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1541650448592	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1541650448592	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1541650448592	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1541650448647	Marionette	INFO	Listening on port 64838
+1541650448647	Marionette	DEBUG	Remote service is active
+1541650448708	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:64869
+1541650448711	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1541650448711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541650448763	Marionette	DEBUG	[4294967297] Frame script loaded
+1541650448806	Marionette	DEBUG	[4294967297] Frame script registered
+1541650448816	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"48ae61c0-6535-d846-b56a-54dd0e83290e","capabilities":{"browserName":"firefox","browserVersion":"64.0" ... ozprofile.r7I1is8h2hOg","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1541650448824	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.dominos.ca"}]
+1541650448831	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1541650449015	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1541650449766	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.dominos.ca/
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 83: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+1541650453093	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.dominos.ca/
+1541650453094	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1541650453097	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".btn.smart-order__cta.smart-order__cta--color"}]
+1541650453100	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2cd9e1f7-9483-d44e-9c80-41e0bbf50783"}}]
+1541650453105	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"2cd9e1f7-9483-d44e-9c80-41e0bbf50783"}]
+1541650453120	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.dominos.ca/
+1541650453150	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.dominos.ca/
+1541650453150	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.dominos.ca/
+JavaScript error: https://ds-aksb-a.akamaihd.net/388955/aksb-a/aksb.min.js, line 22: TypeError: e.AKSB is undefined; can't access its "version" property
+1541650453674	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650453675	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650453676	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650453676	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650453676	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650453815	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.dominos.ca/pages/order/#!/locations/search/?type=Delivery
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 83: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+1541650455478	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.dominos.ca/pages/order/#!/locations/search/?type=Delivery
+1541650455479	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1541650456485	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"Street\"]"}]
+1541650456507	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a35ec03b-afd0-9546-bb4b-ade190163e6a"}}]
+1541650456511	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"a35ec03b-afd0-9546-bb4b-ade190163e6a","text":"350 Victoria St","value":["3","5","0"," ","V","i","c","t","o","r","i","a"," ","S","t"]}]
+1541650456564	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1541650456570	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"City\"]"}]
+1541650456579	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"62b752fc-7fac-0046-8eb4-8dfea50a3b4a"}}]
+1541650456584	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"62b752fc-7fac-0046-8eb4-8dfea50a3b4a","text":"Toronto","value":["T","o","r","o","n","t","o"]}]
+1541650456622	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1541650456624	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"Region\"]"}]
+1541650456628	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6d65d422-60f5-1042-ac40-ea713320261d"}}]
+1541650456631	Marionette	TRACE	0 -> [0,10,"WebDriver:GetElementTagName",{"id":"6d65d422-60f5-1042-ac40-ea713320261d"}]
+1541650456632	Marionette	TRACE	0 <- [1,10,null,{"value":"select"}]
+1541650456636	Marionette	TRACE	0 -> [0,11,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"6d65d422-60f5-1042-ac40-ea713320261d","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1541650456642	Marionette	TRACE	0 <- [1,11,null,{"value":null}]
+1541650456646	Marionette	TRACE	0 -> [0,12,"WebDriver:FindElements",{"element":"6d65d422-60f5-1042-ac40-ea713320261d","using":"xpath","value":".//option[normalize-space(.) = \"ON\"]"}]
+1541650456650	Marionette	TRACE	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"f9bfef15-b5b3-b142-a54e-946721026a78"}]]
+1541650456652	Marionette	TRACE	0 -> [0,13,"WebDriver:IsElementSelected",{"id":"f9bfef15-b5b3-b142-a54e-946721026a78"}]
+1541650456656	Marionette	TRACE	0 <- [1,13,null,{"value":false}]
+1541650456658	Marionette	TRACE	0 -> [0,14,"WebDriver:ElementClick",{"id":"f9bfef15-b5b3-b142-a54e-946721026a78"}]
+1541650456885	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650456888	Marionette	TRACE	0 <- [1,14,null,{"value":null}]
+1541650456894	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"Postal_Code\"]"}]
+1541650456899	Marionette	TRACE	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"833e43a9-ad5c-3246-abe9-59b5b4ca1df1"}}]
+1541650456901	Marionette	TRACE	0 -> [0,16,"WebDriver:ElementSendKeys",{"id":"833e43a9-ad5c-3246-abe9-59b5b4ca1df1","text":"M5B 2K3","value":["M","5","B"," ","2","K","3"]}]
+1541650456935	Marionette	TRACE	0 <- [1,16,null,{"value":null}]
+1541650456940	Marionette	TRACE	0 -> [0,17,"WebDriver:FindElement",{"using":"css selector","value":".btn.btn--large.btn--search-location.js-search-cta.c-locationsearch-search-cta"}]
+1541650456943	Marionette	TRACE	0 <- [1,17,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fff9905a-a36a-0e4d-bd2f-d9c8ed14e0fe"}}]
+1541650456948	Marionette	TRACE	0 -> [0,18,"WebDriver:ElementClick",{"id":"fff9905a-a36a-0e4d-bd2f-d9c8ed14e0fe"}]
+1541650457198	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650457198	Marionette	TRACE	0 <- [1,18,null,{"value":null}]
+1541650460207	Marionette	TRACE	0 -> [0,19,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"entree-Pizza\"]"}]
+1541650460210	Marionette	TRACE	0 <- [1,19,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4a5bb718-cefb-3447-888b-557145b643d3"}}]
+1541650460214	Marionette	TRACE	0 -> [0,20,"WebDriver:ElementClick",{"id":"4a5bb718-cefb-3447-888b-557145b643d3"}]
+1541650460240	Marionette	DEBUG	[4294967297] Received DOM event popstate for https://www.dominos.ca/pages/order/#!/section/Food/category/Pizza/
+1541650460256	Marionette	TRACE	0 <- [1,20,null,{"value":null}]
+1541650462267	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":".media__image.productImage"}]
+1541650462284	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"b5d07a3c-b036-f243-b0cc-992019158d33"}}]
+1541650462287	Marionette	TRACE	0 -> [0,22,"WebDriver:ElementClick",{"id":"b5d07a3c-b036-f243-b0cc-992019158d33"}]
+1541650462549	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650462551	Marionette	TRACE	0 <- [1,22,null,{"value":null}]
+1541650464560	Marionette	TRACE	0 -> [0,23,"WebDriver:FindElement",{"using":"css selector","value":".btn.btn--large.js-isNew.js-addPizza.js-specialtyPizzaAdd.btn--speciality-add"}]
+1541650464565	Marionette	TRACE	0 <- [1,23,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"da2a3d33-aafa-e241-80b9-e56b5daa30bd"}}]
+1541650464569	Marionette	TRACE	0 -> [0,24,"WebDriver:ElementClick",{"id":"da2a3d33-aafa-e241-80b9-e56b5daa30bd"}]
+1541650464799	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650464800	Marionette	TRACE	0 <- [1,24,null,{"value":null}]
+1541650466811	Marionette	TRACE	0 -> [0,25,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[24]/section/div/div[3]/div[3]/div[5]/div[3]/div/div/div/button[1]"}]
+1541650466815	Marionette	TRACE	0 <- [1,25,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2760a6b6-5d07-5343-b113-8d3fbb509172"}}]
+1541650466822	Marionette	TRACE	0 -> [0,26,"WebDriver:ElementClick",{"id":"2760a6b6-5d07-5343-b113-8d3fbb509172"}]
+1541650467105	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650467106	Marionette	TRACE	0 <- [1,26,null,{"value":null}]
+1541650469117	Marionette	TRACE	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":".c-order-buttonCheckout-text"}]
+1541650469135	Marionette	TRACE	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"972a51ae-c4ed-eb47-829a-79eeadbe7210"}}]
+1541650469138	Marionette	TRACE	0 -> [0,28,"WebDriver:ElementClick",{"id":"972a51ae-c4ed-eb47-829a-79eeadbe7210"}]
+1541650469154	Marionette	DEBUG	[4294967297] Received DOM event popstate for https://www.dominos.ca/pages/order/#!/checkout/
+1541650469168	Marionette	TRACE	0 <- [1,28,null,{"value":null}]
+1541650469403	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650471180	Marionette	TRACE	0 -> [0,29,"WebDriver:FindElement",{"using":"css selector","value":".card--overlay__close.js-closeButton"}]
+1541650471184	Marionette	TRACE	0 <- [1,29,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e9af9339-4572-be42-b045-50810508d07a"}}]
+1541650471188	Marionette	TRACE	0 -> [0,30,"WebDriver:ElementClick",{"id":"e9af9339-4572-be42-b045-50810508d07a"}]
+1541650471430	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650471431	Marionette	TRACE	0 <- [1,30,null,{"value":null}]
+1541650473441	Marionette	TRACE	0 -> [0,31,"WebDriver:FindElement",{"using":"css selector","value":".finalizedTotal.js-total"}]
+1541650473446	Marionette	TRACE	0 <- [1,31,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"605332fb-8bb4-f24e-a0d7-fe169ca3f396"}}]
+1541650473452	Marionette	TRACE	0 -> [0,32,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"605332fb-8bb4-f24e-a0d7-fe169ca3f396","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1541650473461	Marionette	TRACE	0 <- [1,32,null,{"value":"$26.54"}]
+1541650475469	Marionette	TRACE	0 -> [0,33,"WebDriver:FindElement",{"using":"css selector","value":".btn.btn--large.btn--block.btn--continue-checkout.submitButton.qa-OrCheck.js-continueCheckout.c-order-continueCheckout"}]
+1541650475473	Marionette	TRACE	0 <- [1,33,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fa0d1815-9f64-c342-8685-8b7a865fb9b5"}}]
+1541650475477	Marionette	TRACE	0 -> [0,34,"WebDriver:ElementClick",{"id":"fa0d1815-9f64-c342-8685-8b7a865fb9b5"}]
+1541650475493	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.dominos.ca/pages/order/#!/checkout/
+1541650475563	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.dominos.ca/pages/order/#!/checkout/
+1541650475569	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.dominos.ca/pages/order/#!/checkout/
+1541650475809	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650475809	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650475809	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650475809	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650475810	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650475854	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.dominos.ca/pages/order/payment.jsp
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 83: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+1541650476490	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.dominos.ca/pages/order/payment.jsp
+1541650476491	Marionette	TRACE	0 <- [1,34,null,{"value":null}]
+1541650476494	Marionette	TRACE	0 -> [0,35,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"First_Name\"]"}]
+1541650476501	Marionette	TRACE	0 <- [1,35,{"error":"no such element","message":"Unable to locate element: [id=\"First_Name\"]","stacktrace":"WebDriverError@chrom ... entError@chrome://marionette/content/error.js:388:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1541650476534	Marionette	DEBUG	Closed connection 0
+1541650499987	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1541650499987	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1541650499987	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1541650499987	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1541650499987	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1541650499987	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1541650499987	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1541650499987	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1541650499987	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1541650499987	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1541650499988	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1541650499988	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1541650499988	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1541650499988	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1541650499988	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1541650499988	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1541650499988	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1541650499988	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1541650499989	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1541650499989	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1541650499989	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1541650499989	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1541650499989	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1541650499989	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1541650499989	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1541650499989	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1541650499989	Marionette	INFO	Stopped listening on port 64838
+1541650499989	Marionette	DEBUG	Remote service is inactive
+1541650506952	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v2/lctp3wyj36d2q0kglg6610qw0000gn/T/rust_mozprofile.OhWqFxovzLKY"
+1541650507541	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1541650507541	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1541650507640	Marionette	DEBUG	Received observer notification profile-after-change
+1541650507741	Marionette	DEBUG	Received observer notification command-line-startup
+1541650507741	Marionette	DEBUG	Received observer notification nsPref:changed
+1541650507741	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1541650507966	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1541650508992	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1541650508992	Marionette	DEBUG	Waiting for delayed startup...
+1541650509134	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1541650509134	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1541650509135	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1541650509135	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1541650509135	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1541650509135	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1541650509136	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1541650509136	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1541650509136	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1541650509136	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1541650509136	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1541650509137	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1541650509137	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1541650509137	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1541650509137	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1541650509137	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1541650509137	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1541650509137	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1541650509137	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1541650509137	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1541650509137	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1541650509137	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1541650509138	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1541650509138	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1541650509138	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1541650509169	Marionette	INFO	Listening on port 64938
+1541650509169	Marionette	DEBUG	Remote service is active
+1541650509184	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:64965
+1541650509194	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1541650509195	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541650509242	Marionette	DEBUG	[4294967297] Frame script loaded
+1541650509274	Marionette	DEBUG	[4294967297] Frame script registered
+1541650509282	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"caf4ed4b-d68d-8b4e-b998-4793f22d5ad1","capabilities":{"browserName":"firefox","browserVersion":"64.0" ... ozprofile.OhWqFxovzLKY","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1541650509294	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.dominos.ca"}]
+1541650509306	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1541650509525	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1541650509990	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.dominos.ca/
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 83: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+1541650511367	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.dominos.ca/
+1541650511368	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1541650511372	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".btn.smart-order__cta.smart-order__cta--color"}]
+1541650511377	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ab82ce09-a0d8-4b45-bad7-5282f38125a3"}}]
+1541650511384	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"ab82ce09-a0d8-4b45-bad7-5282f38125a3"}]
+1541650511399	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.dominos.ca/
+1541650511433	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.dominos.ca/
+1541650511434	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.dominos.ca/
+1541650511686	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650511686	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650511687	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650511687	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650511687	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650511780	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.dominos.ca/pages/order/#!/locations/search/?type=Delivery
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 83: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+1541650513091	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.dominos.ca/pages/order/#!/locations/search/?type=Delivery
+1541650513092	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1541650514103	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"Street\"]"}]
+1541650514108	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"293428a4-25e0-9549-833a-623d3d872bd3"}}]
+1541650514112	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"293428a4-25e0-9549-833a-623d3d872bd3","text":"350 Victoria St","value":["3","5","0"," ","V","i","c","t","o","r","i","a"," ","S","t"]}]
+1541650514155	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1541650514160	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"City\"]"}]
+1541650514165	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"06142378-0f41-ec42-b480-9defb8ac42c2"}}]
+1541650514167	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"06142378-0f41-ec42-b480-9defb8ac42c2","text":"Toronto","value":["T","o","r","o","n","t","o"]}]
+1541650514200	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1541650514203	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"Region\"]"}]
+1541650514205	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"eb477e23-a99e-de44-ae62-c4858ea4b77d"}}]
+1541650514208	Marionette	TRACE	0 -> [0,10,"WebDriver:GetElementTagName",{"id":"eb477e23-a99e-de44-ae62-c4858ea4b77d"}]
+1541650514209	Marionette	TRACE	0 <- [1,10,null,{"value":"select"}]
+1541650514214	Marionette	TRACE	0 -> [0,11,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"eb477e23-a99e-de44-ae62-c4858ea4b77d","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1541650514224	Marionette	TRACE	0 <- [1,11,null,{"value":null}]
+1541650514228	Marionette	TRACE	0 -> [0,12,"WebDriver:FindElements",{"element":"eb477e23-a99e-de44-ae62-c4858ea4b77d","using":"xpath","value":".//option[normalize-space(.) = \"ON\"]"}]
+1541650514235	Marionette	TRACE	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"640848de-8a0c-3b46-a964-fbd91edd4277"}]]
+1541650514238	Marionette	TRACE	0 -> [0,13,"WebDriver:IsElementSelected",{"id":"640848de-8a0c-3b46-a964-fbd91edd4277"}]
+1541650514243	Marionette	TRACE	0 <- [1,13,null,{"value":false}]
+1541650514246	Marionette	TRACE	0 -> [0,14,"WebDriver:ElementClick",{"id":"640848de-8a0c-3b46-a964-fbd91edd4277"}]
+1541650514471	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650514472	Marionette	TRACE	0 <- [1,14,null,{"value":null}]
+1541650514476	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"Postal_Code\"]"}]
+1541650514480	Marionette	TRACE	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"04d8c402-b3a4-0c4f-ba50-e67762524834"}}]
+1541650514484	Marionette	TRACE	0 -> [0,16,"WebDriver:ElementSendKeys",{"id":"04d8c402-b3a4-0c4f-ba50-e67762524834","text":"M5B 2K3","value":["M","5","B"," ","2","K","3"]}]
+1541650514538	Marionette	TRACE	0 <- [1,16,null,{"value":null}]
+1541650514542	Marionette	TRACE	0 -> [0,17,"WebDriver:FindElement",{"using":"css selector","value":".btn.btn--large.btn--search-location.js-search-cta.c-locationsearch-search-cta"}]
+1541650514546	Marionette	TRACE	0 <- [1,17,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"96466daf-a12b-c648-9a14-0badb0525ecd"}}]
+1541650514549	Marionette	TRACE	0 -> [0,18,"WebDriver:ElementClick",{"id":"96466daf-a12b-c648-9a14-0badb0525ecd"}]
+1541650514807	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650514809	Marionette	TRACE	0 <- [1,18,null,{"value":null}]
+1541650517817	Marionette	TRACE	0 -> [0,19,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"entree-Pizza\"]"}]
+1541650517829	Marionette	TRACE	0 <- [1,19,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0bc7a521-28ec-0d4d-8094-07d7af3a11b5"}}]
+1541650517831	Marionette	TRACE	0 -> [0,20,"WebDriver:ElementClick",{"id":"0bc7a521-28ec-0d4d-8094-07d7af3a11b5"}]
+1541650517863	Marionette	DEBUG	[4294967297] Received DOM event popstate for https://www.dominos.ca/pages/order/#!/section/Food/category/Pizza/
+1541650517870	Marionette	TRACE	0 <- [1,20,null,{"value":null}]
+1541650519882	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":".media__image.productImage"}]
+1541650519887	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"b3c217d0-515c-ca40-b7cd-10b605218c4a"}}]
+1541650519891	Marionette	TRACE	0 -> [0,22,"WebDriver:ElementClick",{"id":"b3c217d0-515c-ca40-b7cd-10b605218c4a"}]
+1541650520130	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650520134	Marionette	TRACE	0 <- [1,22,null,{"value":null}]
+1541650522142	Marionette	TRACE	0 -> [0,23,"WebDriver:FindElement",{"using":"css selector","value":".btn.btn--large.js-isNew.js-addPizza.js-specialtyPizzaAdd.btn--speciality-add"}]
+1541650522157	Marionette	TRACE	0 <- [1,23,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2c4edf46-ae2b-b34f-8ae3-f9cb9e457bbd"}}]
+1541650522160	Marionette	TRACE	0 -> [0,24,"WebDriver:ElementClick",{"id":"2c4edf46-ae2b-b34f-8ae3-f9cb9e457bbd"}]
+1541650522397	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650522400	Marionette	TRACE	0 <- [1,24,null,{"value":null}]
+1541650524407	Marionette	TRACE	0 -> [0,25,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[24]/section/div/div[3]/div[3]/div[5]/div[3]/div/div/div/button[1]"}]
+1541650524412	Marionette	TRACE	0 <- [1,25,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"68b17a39-4082-a946-84bb-5dcb4d53884d"}}]
+1541650524417	Marionette	TRACE	0 -> [0,26,"WebDriver:ElementClick",{"id":"68b17a39-4082-a946-84bb-5dcb4d53884d"}]
+1541650524728	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650524730	Marionette	TRACE	0 <- [1,26,null,{"value":null}]
+1541650526737	Marionette	TRACE	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":".c-order-buttonCheckout-text"}]
+1541650526741	Marionette	TRACE	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8e2ce842-aa9a-4b4b-a900-e8cd795f3eb8"}}]
+1541650526748	Marionette	TRACE	0 -> [0,28,"WebDriver:ElementClick",{"id":"8e2ce842-aa9a-4b4b-a900-e8cd795f3eb8"}]
+1541650526767	Marionette	DEBUG	[4294967297] Received DOM event popstate for https://www.dominos.ca/pages/order/#!/checkout/
+1541650526775	Marionette	TRACE	0 <- [1,28,null,{"value":null}]
+1541650526982	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650528787	Marionette	TRACE	0 -> [0,29,"WebDriver:FindElement",{"using":"css selector","value":".card--overlay__close.js-closeButton"}]
+1541650528804	Marionette	TRACE	0 <- [1,29,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e9705ae1-73c1-ca4d-9155-2a175036ec76"}}]
+1541650528807	Marionette	TRACE	0 -> [0,30,"WebDriver:ElementClick",{"id":"e9705ae1-73c1-ca4d-9155-2a175036ec76"}]
+1541650529060	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650529062	Marionette	TRACE	0 <- [1,30,null,{"value":null}]
+1541650531071	Marionette	TRACE	0 -> [0,31,"WebDriver:FindElement",{"using":"css selector","value":".finalizedTotal.js-total"}]
+1541650531075	Marionette	TRACE	0 <- [1,31,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"afc0ce7a-4a4e-514e-9169-285d308244ec"}}]
+1541650531079	Marionette	TRACE	0 -> [0,32,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"afc0ce7a-4a4e-514e-9169-285d308244ec","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1541650531086	Marionette	TRACE	0 <- [1,32,null,{"value":"$26.54"}]
+1541650533089	Marionette	TRACE	0 -> [0,33,"WebDriver:FindElement",{"using":"css selector","value":".btn.btn--large.btn--block.btn--continue-checkout.submitButton.qa-OrCheck.js-continueCheckout.c-order-continueCheckout"}]
+1541650533094	Marionette	TRACE	0 <- [1,33,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fcfcee81-d7bf-5a4b-9a30-78327b2d0347"}}]
+1541650533101	Marionette	TRACE	0 -> [0,34,"WebDriver:ElementClick",{"id":"fcfcee81-d7bf-5a4b-9a30-78327b2d0347"}]
+1541650533123	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.dominos.ca/pages/order/#!/checkout/
+1541650533175	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.dominos.ca/pages/order/#!/checkout/
+1541650533177	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.dominos.ca/pages/order/#!/checkout/
+1541650533407	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650533408	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650533408	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650533408	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650533408	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1541650533444	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.dominos.ca/pages/order/payment.jsp
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 83: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=8942771, line 143: unreachable code after return statement
+1541650533994	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.dominos.ca/pages/order/payment.jsp
+1541650533995	Marionette	TRACE	0 <- [1,34,null,{"value":null}]
+1541650538000	Marionette	TRACE	0 -> [0,35,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"First_Name\"]"}]
+1541650538033	Marionette	TRACE	0 <- [1,35,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"345a3540-8a11-8a4f-ab33-ecc382e261ca"}}]
+1541650538035	Marionette	TRACE	0 -> [0,36,"WebDriver:ElementSendKeys",{"id":"345a3540-8a11-8a4f-ab33-ecc382e261ca","text":"Sagar","value":["S","a","g","a","r"]}]
+1541650538072	Marionette	TRACE	0 <- [1,36,null,{"value":null}]
+1541650538076	Marionette	TRACE	0 -> [0,37,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"Last_Name\"]"}]
+1541650538082	Marionette	TRACE	0 <- [1,37,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f762a79b-ff02-c84e-b031-f49756bb1921"}}]
+1541650538087	Marionette	TRACE	0 -> [0,38,"WebDriver:ElementSendKeys",{"id":"f762a79b-ff02-c84e-b031-f49756bb1921","text":"PUNN","value":["P","U","N","N"]}]
+1541650538125	Marionette	TRACE	0 <- [1,38,null,{"value":null}]
+1541650538129	Marionette	TRACE	0 -> [0,39,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"Email\"]"}]
+1541650538133	Marionette	TRACE	0 <- [1,39,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"35d763ca-bc79-e34c-8e7a-5be1be2a4788"}}]
+1541650538136	Marionette	TRACE	0 -> [0,40,"WebDriver:ElementSendKeys",{"id":"35d763ca-bc79-e34c-8e7a-5be1be2a4788","text":"example@yahoo.com","value":["e","x","a","m","p","l","e","@","y","a","h","o","o",".","c","o","m"]}]
+1541650538191	Marionette	TRACE	0 <- [1,40,null,{"value":null}]
+1541650538193	Marionette	TRACE	0 -> [0,41,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"Callback_Phone\"]"}]
+1541650538195	Marionette	TRACE	0 <- [1,41,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"93364cbf-40b4-1346-8d03-9b60c4c14e30"}}]
+1541650538198	Marionette	TRACE	0 -> [0,42,"WebDriver:ElementSendKeys",{"id":"93364cbf-40b4-1346-8d03-9b60c4c14e30","text":"3333333333","value":["3","3","3","3","3","3","3","3","3","3"]}]
+1541650538253	Marionette	TRACE	0 <- [1,42,null,{"value":null}]
+1541650538256	Marionette	TRACE	0 -> [0,43,"WebDriver:FindElement",{"using":"css selector","value":".Delivery.is-hidden.c-order-payment-doordebit.js-paymentType"}]
+1541650538268	Marionette	TRACE	0 <- [1,43,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c481f912-5a0d-f947-be75-8443dea327ca"}}]
+1541650538273	Marionette	TRACE	0 -> [0,44,"WebDriver:ElementClick",{"id":"c481f912-5a0d-f947-be75-8443dea327ca"}]
+1541650538530	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1541650538531	Marionette	TRACE	0 <- [1,44,null,{"value":null}]
+1541650538554	Marionette	DEBUG	Closed connection 0
+1541650558362	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1541650558362	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1541650558362	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1541650558362	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1541650558362	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1541650558362	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1541650558362	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1541650558363	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1541650558363	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1541650558363	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1541650558363	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1541650558363	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1541650558363	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1541650558364	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1541650558364	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1541650558364	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1541650558364	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1541650558364	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1541650558364	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1541650558364	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1541650558364	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1541650558364	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1541650558364	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1541650558364	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1541650558364	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1541650558364	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1541650558365	Marionette	INFO	Stopped listening on port 64938
+1541650558365	Marionette	DEBUG	Remote service is inactive
