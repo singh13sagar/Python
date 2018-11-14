@@ -3,7 +3,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-"""
+
+
 from selenium.webdriver.common.by import By
 import time 
 driver = wd.Firefox()
@@ -71,27 +72,18 @@ phone.send_keys('3333333333')
 debit_Pay = driver.find_element_by_css_selector('.Delivery.is-hidden.c-order-payment-doordebit.js-paymentType')
 debit_Pay.click()
 
-
-
-
-
-
-
+"""
 
 class Order:
     def __init__(self, kind, address):
         self.kind = kind
         self.address = address
     def placeIt(keys):
+        with open('keys.txt','r') as f:
+            lines = f.readlines()
+            lines = [line.rstrip('\n') for line in lines]
+            print(lines)
 
-"""
-
-
-
-with open('keys.txt','r') as f:
-    lines = f.readlines()
-lines = [line.rstrip('\n') for line in lines]
-print(lines)
 
 
 def setupOrder(lines,address,fullname,email,phone):
@@ -99,7 +91,7 @@ def setupOrder(lines,address,fullname,email,phone):
         if line[0] == '.':
             elem = driver.find_element_by_css_selector(line)
             if line == '.finalizedTotal.js-total':
-                print('Total Price of the order is " + elem.get_attribute('innerText'))
+                print('Total Price of the order is ' + elem.get_attribute('innerText'))
             else:
                 elem.click()
         elif line[0] == '/':
@@ -110,7 +102,7 @@ def setupOrder(lines,address,fullname,email,phone):
             if line == 'Street':
                 (driver.find_element_by_id(line)).send_keys(address[0])
             elif line == 'City':
-                (driver.find_element_by_id(line)).send_keys(address[1])
+                (driver.find_element_by_idl(line)).send_keys(address[1])
             elif line == 'Region':
                 (driver.find_element_by_id(line)).select_by_visible_text(address[2])
             elif line == 'Postal_Code':
@@ -126,6 +118,7 @@ def setupOrder(lines,address,fullname,email,phone):
             else:
                 (driver.find_element_by_id(line)).send_keys(phone)
         time.sleep(4)
+"""
 
 
 
