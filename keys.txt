@@ -7,14 +7,14 @@ Postal_Code
 entree-Pizza
 .media__image.productImage
 .btn.btn--large.js-isNew.js-addPizza.js-specialtyPizzaAdd.btn--speciality-add
+.btn--no-thanks
 /html/body/div[24]/section/div/div[3]/div[3]/div[5]/div[3]/div/div/div/button[1]
 .c-order-buttonCheckout-text
-.card--overlay__close.js-closeButton
+/html/body/div[30]/section/header/button
 .finalizedTotal.js-total
-innerText
 .btn.btn--large.btn--block.btn--continue-checkout.submitButton.qa-OrCheck.js-continueCheckout.c-order-continueCheckout
 First_Name
 Last_Name
 Email
 Callback_Phone
-.Delivery.is-hidden.c-order-payment-doordebit.js-paymentType
+.c-order-payment-cash
