@@ -1,0 +1,11 @@
+language: python
+python: "3.3"
+install:
+  - pip install selenium
+  - pip install codecov
+  - pip install coverage
+script:
+  - python -m unittest discover -v ./tests/
+  - coverage run ./tests/test.py
+after_success:
+  - codecov
